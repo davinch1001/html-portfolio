@@ -1,0 +1,33 @@
+.header{
+  background: #282828;
+ &__menu{
+   display: flex;
+ }
+ &__logo{
+   display: flex;
+   align-items: center;
+   .fa-reddit-alien{
+     color: $blue;
+     font-size: 40px;
+   }
+   .logo-title{
+     color: white;
+     font-family: niko;
+     margin-left: 10px;
+   }
+ }
+  &__items{
+    display: flex;
+    align-items: center;
+  }
+  &__item{
+    font-size: 15px;
+    font-family: aboda;
+    text-decoration: none;
+    color: white;
+    margin-left: 145px;
+    &:first-child{
+      margin-left: 219px;
+    }
+  }
+}

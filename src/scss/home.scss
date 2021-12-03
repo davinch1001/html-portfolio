@@ -1,0 +1,92 @@
+.home{
+  color: white;
+  padding-top: 50px;
+  background: #282828;
+  &__block{
+    display: flex;
+  }
+  &__text-block{
+    .hello{
+      font-family: mulish;
+      font-size: 48px;
+      padding-top: 100px;
+    }
+    .name-user{
+      font-family: mulish;
+      font-size: 72px;
+    }
+    .about-me{
+      background: transparent;
+      width: 430px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      font-family: aboda;
+      padding: 27px 0 27px 0;
+    }
+    .contact-me{
+      font-family: mulish;
+      border-style: none;
+      background: #E2A300;
+      border-radius: 10px;
+      width: 200px;
+      padding: 13px 0 13px 0;
+      font-size: 18px;
+      &:hover{
+        color:white;
+      }
+    }
+  }
+  &__img-block{
+    margin-left: 165px;
+position: relative;
+    .elipse{
+      position: absolute;
+      width: 833px;
+      left: -203px;
+      top: -82px;
+    }
+    .man-img{
+position: relative;
+    }
+    .smile{
+      position: absolute;
+      top: -51px;
+      left: -15px;
+    }
+    .icons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90px;
+      height: 90px;
+      background: #414141;
+      border-radius: 50%;
+      color: $blue;
+      font-size: 32px;
+    }
+    .code{
+      position: absolute;
+      top: 97px;
+      left: -53px;
+    }
+    .html{
+      position: absolute;
+      top: 275px;
+      left: -117px;
+    }
+    .css{
+      position: absolute;
+      top: 456px;
+      left: -75px;
+    }
+    .sass{
+      position: absolute;
+      top: 75px;
+      right: -9px;
+    }
+  }
+}

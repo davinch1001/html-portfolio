@@ -1,0 +1,345 @@
+@font-face {
+  font-family: mulish;
+  src: url("../font/Mulish-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: aboda;
+  src: url("../font/ArodoraPro-Light.otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: niko;
+  src: url("../font/NicoMoji-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #282828;
+}
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__logo .fa-reddit-alien {
+  color: #00C4F0;
+  font-size: 40px;
+}
+.header__logo .logo-title {
+  color: white;
+  font-family: niko;
+  margin-left: 10px;
+}
+.header__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__item {
+  font-size: 15px;
+  font-family: aboda;
+  text-decoration: none;
+  color: white;
+  margin-left: 145px;
+}
+.header__item:first-child {
+  margin-left: 219px;
+}
+
+.home {
+  color: white;
+  padding-top: 50px;
+  background: #282828;
+}
+.home__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.home__text-block .hello {
+  font-family: mulish;
+  font-size: 48px;
+  padding-top: 100px;
+}
+.home__text-block .name-user {
+  font-family: mulish;
+  font-size: 72px;
+}
+.home__text-block .about-me {
+  background: transparent;
+  width: 430px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: aboda;
+  padding: 27px 0 27px 0;
+}
+.home__text-block .contact-me {
+  font-family: mulish;
+  border-style: none;
+  background: #E2A300;
+  border-radius: 10px;
+  width: 200px;
+  padding: 13px 0 13px 0;
+  font-size: 18px;
+}
+.home__text-block .contact-me:hover {
+  color: white;
+}
+.home__img-block {
+  margin-left: 165px;
+  position: relative;
+}
+.home__img-block .elipse {
+  position: absolute;
+  width: 833px;
+  left: -203px;
+  top: -82px;
+}
+.home__img-block .man-img {
+  position: relative;
+}
+.home__img-block .smile {
+  position: absolute;
+  top: -51px;
+  left: -15px;
+}
+.home__img-block .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90px;
+  height: 90px;
+  background: #414141;
+  border-radius: 50%;
+  color: #00C4F0;
+  font-size: 32px;
+}
+.home__img-block .code {
+  position: absolute;
+  top: 97px;
+  left: -53px;
+}
+.home__img-block .html {
+  position: absolute;
+  top: 275px;
+  left: -117px;
+}
+.home__img-block .css {
+  position: absolute;
+  top: 456px;
+  left: -75px;
+}
+.home__img-block .sass {
+  position: absolute;
+  top: 75px;
+  right: -9px;
+}
+
+.skills {
+  background: #3F3F3F;
+  padding: 113px 0 0 0;
+}
+.skills__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.skills__skill {
+  width: 270px;
+  height: 270px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: #2A2A2A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.skills__skill .skill-icon {
+  font-size: 70px;
+  color: #00C4F0;
+}
+.skills__skill .skill-title {
+  font-family: aboda;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* text */
+  color: #E4E4E4;
+}
+
+.about-me {
+  position: relative;
+  background: #3F3F3F;
+  padding: 156px 0 156px 0;
+}
+.about-me__title {
+  position: absolute;
+  top: -33px;
+  left: 468px;
+  z-index: 1;
+  font-family: mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* text */
+  color: #E4E4E4;
+}
+.about-me__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+.about-me__first-img-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about-me__first-img-block .my-photo {
+  position: relative;
+  border: 29px solid #2C2C2C;
+  border-radius: 10px;
+  margin-bottom: 197px;
+  margin-top: -150px;
+  margin-right: -20px;
+}
+.about-me__first-img-block .my-photo img {
+  width: 272px;
+}
+.about-me__first-img-block .my-photo2 {
+  position: relative;
+  border: 29px solid #2C2C2C;
+  border-radius: 10px 0 0 10px;
+  width: 250px;
+  margin-left: 60px;
+}
+.about-me__first-img-block .my-photo2 img {
+  width: 100%;
+}
+.about-me__second-text-block {
+  position: relative;
+  width: 456px;
+  padding: 63px;
+  border-radius: 10px;
+  background: #2c2c2c;
+  font-family: aboda;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+.about-me__second-text-block .about-me-text {
+  width: 370px;
+}
+.about-me__third-img-block .my-photo3 {
+  position: relative;
+  border: 29px solid #2C2C2C;
+  border-radius: 10px;
+  width: 287px;
+  height: 398px;
+  margin-left: -50px;
+}
+.about-me__third-img-block .my-photo3 img {
+  width: 100%;
+  height: 100%;
+}
+.about-me__big-ellipse {
+  position: absolute;
+  left: -130px;
+}
+.about-me__middle-ellipse {
+  position: absolute;
+  bottom: -187px;
+  right: 55px;
+}
+.about-me__smoll-ellipse {
+  position: absolute;
+  right: -2px;
+  top: -109px;
+}
